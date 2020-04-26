@@ -1,0 +1,51 @@
+## Given an array nums of n integers where n > 1,  return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].
+
+PS: Solve it without Division and in O(n)
+
+Example
+
+Input = {1,2,3,4}
+
+Output = {24,12,8,6}
+
+
+Approach:
+
+For each element i in input, find the product of elements on its LHS and the product of all elements on its RHS.
+Multiply these two products together.
+
+### Pseudocode
+````
+int [] findProductExceptElem(int[]nums){
+
+    int n = nums.length;
+    
+    int[] L = new int[n];  // to hold products of elements on LHS of i
+    int [] R = new int[n]; // to hold products of elements on RHS of i
+    
+    int[] output = new int[n]; // final output
+    
+    L[0] = 1;  // there are no elements to the left of L[0] so set the product as 1
+    for(int i=0; i<n; i++) {
+        
+        L[i] = nums[i - 1] * L[i - 1];
+        
+    }
+    
+    R[n-1] = 1; 
+    for(int i = n-2; i >=0; i--){
+        
+        R[i] = nums[i+1] * R[i+1];
+    }
+    
+    // combine for final output
+    for(int i=0; i<n; i++) {
+        
+        output[i] = L[i] * R[i];
+    }
+    
+    return output;
+} 
+````
+
+

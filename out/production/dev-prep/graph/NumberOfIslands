@@ -1,0 +1,60 @@
+
+Given a 2d grid map of ‘1’s (land) and ‘0’s (water), count the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically.
+Assume all four edges of the grid are all surrounded by water. Given such a grid, write an algorithm to find the number of islands in it.
+
+11000
+11000
+00100
+00011
+
+output: 3
+
+11110
+11010
+11000
+00000
+
+output: 1
+
+## RECURSIVE DFS
+-> Start DFS from the node with value 1 and try all 4 directions(right,left,up,down) to find any connected 1s.
+-> Once DFS is completed, check if there's an unvisited node with value 1 exists in the given grid, if yes, start another
+DFS from that node. Keep counting the number of DFS, that will be the answer
+
+public int numIslands(int[][] islandGrid) {
+
+    int h = islandGrid.length;
+
+    if(h == 0)
+        return 0;
+
+    int l = islandGrid[0].length;
+    int result = 0;
+
+    for(int i=0; i<h; i++) {
+        for(int j=0; j<l; j++){
+
+            if(islandGrid[i][j] == '1'){
+                DFS(islandGrid, i, j);
+                result++;
+            }
+        }
+    }
+
+    return result;
+}
+
+public void DFS(char[][] islandGrid, int row, int col) {
+
+    int H = islandGrid.length;
+    int L = islandGrid[0].length;
+
+    if(row < 0 || col < 0 || row > H || col > L || islandGrid[row][col] != '1')
+        return
+
+    islandGrid[row][col] = '0'; // mark as visited
+    DFS(islandGrid, row+1, col) // go right
+    DFS(islandGrid, row-1, col) // go left
+    DFS(islandGrid, row, col + 1); //go down
+    DFS(islandGrid, row, col - 1); // go up
+}

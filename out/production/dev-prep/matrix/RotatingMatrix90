@@ -1,0 +1,62 @@
+Given an N*N matrix, rotate it by 90 degrees. Could you do it in place?
+
+Example
+
+Input:
+1 2 3
+4 5 6
+7 8 9
+
+Output:
+7 4 1
+8 5 2
+9 6 3
+
+
+                        y=0,x=0
+1  2  3  4              1 - (x,y),  4 - (y, h-1-x)   16 - (h-1-x, h-1-y), 13 - (h-1-y, x)
+
+5  6  7  8
+
+9 10 11 12
+
+13 14 15 16
+
+
+With Extra Space
+- Create a matrix of the same size an input matrix.
+- Interchange rows and columns of the original matrix copying them onto the new matrix
+
+public void rotateMatrix(int[][] grid) {
+
+    int h = grid.length;
+    int w = grid[0].length;
+
+    System.out.println(rotate(grid, h, w));
+
+}
+
+
+static int[][] rotate(int[][]grid, int h, int w) {
+
+    int[][] newMatrix = new int[h][w];
+    Queue<Integer> queue = new LinkedList<>();
+
+    for(int j=0; j<w; j++){
+
+        for(int i=h-1; i>0; i--){
+            queue.add(grid[j][i]);
+        }
+
+        while(!queue.isEmpty()){
+
+            for(int y=0; y<h; y++) {
+                for(int x=0; x<w; x++) {
+                    newMat[y][x] = queue.remove();
+                }
+            }
+        }
+    }
+
+    return newMat;
+}

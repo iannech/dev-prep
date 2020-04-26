@@ -1,0 +1,47 @@
+Question: Given a non empty string, find the first non repeating character.
+
+Example:
+Input - ababcdab
+Output - c
+
+Input - ababcdcd []
+Output - null
+
+Approach
+--------------------------------------
+
+Edge cases
+- if input has 1 character
+
+Brute Force -
+
+
+My solution
+
+// Not perfect: PseudoCode + Real code
+char fndFirstNonRepeating(char[] input) {
+    int n = input.length;
+
+    if(input.length < 2){
+        return input;
+    }
+
+    Map<Character, Integer> map = new LinkedHashMap<>(); // to ensure items are inserted in order into Map
+    for(int i=0;i<n; i++) {
+
+        if(map.containsKey(input[i])){
+            map.remove(input[i]);
+        } else {
+            map.put(input[i]);
+        }
+    }
+
+    Map.Entry<Character,Integer> entry = map.entrySet().iterator().next();
+    Character charr = entry.getKey()
+
+    return charr;
+}
+
+Better soln
+- Use a HashMap<Character, Integer> to track no. of occurence of each character
+- Loop through the string, check if map

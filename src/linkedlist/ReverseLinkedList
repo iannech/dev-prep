@@ -1,0 +1,14 @@
+ // Reverse LinkedList from Middle
+static Node reverseFromMiddle(Node head) {
+
+    // find middle
+    Node fast = head;
+    Node slow = head;
+
+    while(fast.next != null){
+        fast = fast.next.next;
+        slow = slow.next;
+    }
+
+    slow.next
+}
