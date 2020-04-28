@@ -1,14 +1,14 @@
 
-Check if two nodes are in the same path
+###Check if two nodes are in the same path
 
 
-# Using Extra Space
+### Using Extra Space
 -> Starting from root
     -> check if root has children
         -> while true, push root to stack
         -> recurse root.next as new root until root.next == null
     -> pop items from stack one by one and check if the items
-
+````
 Node {
 
     int value;
@@ -18,7 +18,6 @@ Node {
 
     }
 }
-
 
 static boolean checkIfNodesOnSamePath(Node root, int x, int y) {
 
