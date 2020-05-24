@@ -12,15 +12,15 @@ Reverse the integer and compare with original number. If equal, return TRUE, oth
 
 static boolean isIntegerPalindrome(int num) {
 
-    int rem = 0;
     int ret = 0;
-    
+    int originalNum = num;
+
     while(num > 0){
-        rem = num % 10;  1, 2, 1
-        num = num / 10;  12, 1,
+        int rem = num % 10;  
+        num = num / 10;  
         ret = ret * 10 + rem;
     }
-    if(num == ret)
+    if(originalNum == ret)
         return true;
     else
         return false;

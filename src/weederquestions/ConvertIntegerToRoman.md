@@ -7,30 +7,31 @@ Input: 1245 Output: M + CC+ XL + V = MCCLXV
 input: 34 = XXX + IV = XXXIV
 
 Hint: A literal cannot be occur 4 times in a row eg XXXX -> prepend next literal to it ie LX
-
+Constraint: We have an upper limit of 3999
 
 Approach:
+- A very simple approach is to store all roman representations in 4 arrays
+  - ones
+  - tens
+  - hundreds
+  - thousands
 
-Have a set/array/map containing these roman literal representations
+- Then for each position starting with the least significant, fetch its corresponding mapping in the arrays
+- Use division and modulus to achieve this
+````
 
-1000  900  500 400  100  90    50   40   10    9     5    4    1
+static String convertIntegerToRoman(int num) {
 
-["M","CM","D","CD", "C","XC", "L", "XL", "X", "IX", "V", "IV","I"] 
+    String [] thousands = {"", "M", "MM", "MMM"};
+    String [] hundreds = {"", "C", "CC", "CCC", "CD","D", "DC", "DCC", "DCCC", "CM"};
+    String [] tens = {"", "X", "XX", "XXX", "XL", "L", "LX","LXX", "LXXX", "LC"};
+    String [] ones = {"", "I,"II","III","IV","V","VI","VII","VIII","IX","X"};
+    
+    return thousands(num / 1000) +
+           hundreds((num % 1000) / 100) +
+           tens((num % 100) / 10) +
+           ones(num % 10);
+           
+}
+````
 
-int rem;
-int count = 0;
-
-rem = 1245 % 10 = 5           Does set contain 5? Yes. Get V
-N = N/10 = 124
-count++ = 1
-Multiplier = 10^1 
-
-rem = 124%10 = 4
-rem = Multiplier * rem = 40  Does set contain 40? Yes. Get XL  prepend to V ---- XLV
-N = 124/10 = 12
-count++ = 2
-
-
-rem = 12%10 = 2
-rem = Mul * rem * count = 10 ^ 2 * 2 = 200  prepend CCXLV
-N = 10/10 =

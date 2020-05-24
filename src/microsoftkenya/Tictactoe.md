@@ -5,4 +5,6 @@
    gamespace = N  
    int[][]grid = new int[N][N]
    
+   Lets use N = 3 in this case.
+   
 - Define win states
