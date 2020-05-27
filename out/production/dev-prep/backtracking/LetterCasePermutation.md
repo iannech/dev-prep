@@ -24,7 +24,7 @@ Output: ["12345"]
             
             if(S.length() == 0 || S == null){
                 output.add(String.valueOf(str));    
-                
+                  
             } else {
         
                 permute(str, output, 0);    

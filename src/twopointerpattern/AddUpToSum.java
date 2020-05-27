@@ -6,7 +6,7 @@ import java.util.List;
 public class AddUpToSum {
 
     /**
-     * Given an array of integers return indices of two elements whose sum adds up to k
+     * Given a SORTED array of integers return indices of two elements whose sum adds up to k
      *
      * */
     public static void main(String []args) {

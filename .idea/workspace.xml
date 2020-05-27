@@ -2,22 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="134ec054-40a3-4b38-b8a3-627d9c998307" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/SearchForKeyInSortedRotatedArray.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bytebybyte/FindAllDuplicatesInArray.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bytebybyte/LongestSubsequenceWithConsecutiveElements.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bytebybyte/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bytebybyte/MatrixProductFromLeftToRight.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bytebybyte/MedianOfTwoSortedArrays.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bytebybyte/MergeKSortedArrays.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/matrix/SpiralMatrix.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/weederquestions/IntegerToRoman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/weederquestions/Permutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking/StringPermutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cyclicsortpattern/FindMissingNumber.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cyclicsortpattern/FindSmallestMissingPositiveNumber.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cyclicsortpattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/DetectLoopInLinkedList.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/weederquestions/LongestPalindromeInString.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/weederquestions/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/weederquestions/MatchingBrackets.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dev-prep/microsoftkenya/Tictactoe.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dev-prep/microsoftkenya/Tictactoe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dev-prep/weederquestions/IntegerPalindrome.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dev-prep/weederquestions/IntegerPalindrome.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dev-prep/backtracking/LetterCasePermutation.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dev-prep/backtracking/LetterCasePermutation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dev-prep/weederquestions/ConvertIntegerToRoman.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dev-prep/weederquestions/ConvertIntegerToRoman.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backtracking/LetterCasePermutation.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/LetterCasePermutation.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/docs/Whiteboard Steps.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/Whiteboard Steps.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/microsoftkenya/Tictactoe.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/microsoftkenya/Tictactoe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weederquestions/ConvertIntegerToRoman.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/weederquestions/ConvertIntegerToRoman.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/AddTwoLinkedLists.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/AddTwoLinkedLists.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twopointerpattern/AddUpToSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointerpattern/AddUpToSum.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,55 +42,77 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bytebybyte/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/graph/DepthFirstSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1073">
-              <caret line="287" column="61" selection-start-line="287" selection-start-column="61" selection-end-line="287" selection-end-column="61" />
-              <folding>
-                <element signature="e#1274#1283#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/weederquestions/Permutations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-187">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/amazonsde12020/SumOfArrayOf0sAnd1s.md">
+        <entry file="file://$PROJECT_DIR$/src/weederquestions/MatchingBrackets.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="165">
+                <caret line="11" column="14" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="14" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/weederquestions/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="48" column="55" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/weederquestions/IntegerPalindrome.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="330">
+                <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/linkedlist/DetectLoopInLinkedList.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="205">
+                <caret line="14" selection-start-line="14" selection-end-line="14" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/linkedlist/AddTwoLinkedLists.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="1095">
+                <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/backtracking/LetterCasePermutation.md">
+        <entry file="file://$PROJECT_DIR$/src/heap/MinHeap.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-35" />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/array/Segregate0sAndOtherValues.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="195">
-                <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+              <first_editor relative-caret-position="1320">
+                <caret line="124" column="2" selection-start-line="124" selection-start-column="2" selection-end-line="124" selection-end-column="2" />
               </first_editor>
               <second_editor />
             </state>
@@ -99,31 +120,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/array/FindAllDuplicatesInArray.md">
+        <entry file="file://$PROJECT_DIR$/src/weederquestions/LongestPalindromeInString.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/array/LeftRotateArray.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/array/SearchForKeyInSortedRotatedArray.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-555">
-                <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
+              <first_editor relative-caret-position="730">
+                <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
               </first_editor>
               <second_editor />
             </state>
@@ -131,24 +132,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/weederquestions/ConvertIntegerToRoman.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="203">
-                <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="34" selection-end-column="1" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/weederquestions/IntegerToRoman.java">
+        <entry file="file://$PROJECT_DIR$/src/linkedlist/ReverseLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/linkedlist/ReverseLinkedList">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -171,20 +165,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/amazonsde12020/SumOfArrayOf0sAnd1s.md" />
-        <option value="$PROJECT_DIR$/src/array/SmallestMissingPositiveInteger.java" />
-        <option value="$PROJECT_DIR$/src/patterns/TwoPointerPattern.md" />
-        <option value="$PROJECT_DIR$/src/twopointerpattern/AddUpToSum.java" />
-        <option value="$PROJECT_DIR$/src/stack/StackUsingArray.java" />
-        <option value="$PROJECT_DIR$/src/PascalsTriangle.java" />
-        <option value="$PROJECT_DIR$/src/FirstNonRepeatingChar.java" />
-        <option value="$PROJECT_DIR$/src/stringmanipulation/FirstNonRepeatingChar.java" />
-        <option value="$PROJECT_DIR$/src/array/ThreeClosestDenominations.java" />
-        <option value="$PROJECT_DIR$/src/stringmanipulation/StringPermutations.java" />
         <option value="$PROJECT_DIR$/src/array/Segregate0sAndOtherValues.md" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/amazonsde12020/MergeTwoSortedLinkedListsInDecreasingOrder.md" />
-        <option value="$PROJECT_DIR$/src/graph/CheckIfTwoNodesInSamePath.md" />
         <option value="$PROJECT_DIR$/src/graph/Edge.java" />
         <option value="$PROJECT_DIR$/src/graph/Graph.java" />
         <option value="$PROJECT_DIR$/src/graph/BfsUsingAdjacencyList.java" />
@@ -194,7 +177,6 @@
         <option value="$PROJECT_DIR$/src/linkedlist/LinkedListPalindrome.java" />
         <option value="$PROJECT_DIR$/src/linkedlist/LinkedListPalindrome.md" />
         <option value="$PROJECT_DIR$/src/linkedlist/AddTwoLinkedLists.java" />
-        <option value="$PROJECT_DIR$/src/linkedlist/AddTwoLinkedLists.md" />
         <option value="$PROJECT_DIR$/src/amazonsde12020/BehavioralQuiz.md" />
         <option value="$PROJECT_DIR$/src/sorting/MergeSort.md" />
         <option value="$PROJECT_DIR$/src/sorting/QuickSort.md" />
@@ -222,6 +204,18 @@
         <option value="$PROJECT_DIR$/src/array/SearchForKeyInSortedRotatedArray.md" />
         <option value="$PROJECT_DIR$/src/weederquestions/ConvertIntegerToRoman.md" />
         <option value="$PROJECT_DIR$/src/weederquestions/IntegerToRoman.java" />
+        <option value="$PROJECT_DIR$/src/backtracking/LetterCasePermutation.md" />
+        <option value="$PROJECT_DIR$/src/backtracking/StringPermutations.java" />
+        <option value="$PROJECT_DIR$/src/cyclicsortpattern/Main.java" />
+        <option value="$PROJECT_DIR$/src/cyclicsortpattern/FindMissingNumber.md" />
+        <option value="$PROJECT_DIR$/src/twopointerpattern/AddUpToSum.java" />
+        <option value="$PROJECT_DIR$/src/cyclicsortpattern/FindSmallestMissingPositiveNumber.md" />
+        <option value="$PROJECT_DIR$/src/graph/CheckIfTwoNodesInSamePath.md" />
+        <option value="$PROJECT_DIR$/src/weederquestions/MatchingBrackets.md" />
+        <option value="$PROJECT_DIR$/src/weederquestions/Main.java" />
+        <option value="$PROJECT_DIR$/src/linkedlist/DetectLoopInLinkedList.md" />
+        <option value="$PROJECT_DIR$/src/linkedlist/AddTwoLinkedLists.md" />
+        <option value="$PROJECT_DIR$/src/weederquestions/LongestPalindromeInString.md" />
       </list>
     </option>
   </component>
@@ -233,7 +227,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="27" />
-    <option name="width" value="1920" />
+    <option name="width" value="1910" />
     <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -244,8 +238,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,6 +280,12 @@
               <item name="dev-prep" type="b2602c69:ProjectViewProjectNode" />
               <item name="dev-prep" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cyclicsortpattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dev-prep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dev-prep" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -299,6 +299,12 @@
               <item name="dev-prep" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="heap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dev-prep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dev-prep" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dev-prep" type="b2602c69:ProjectViewProjectNode" />
@@ -328,6 +334,12 @@
               <item name="dev-prep" type="b2602c69:ProjectViewProjectNode" />
               <item name="dev-prep" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dev-prep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dev-prep" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="stringmanipulation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -335,6 +347,12 @@
               <item name="dev-prep" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="subsets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dev-prep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dev-prep" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="twopointerpattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dev-prep" type="b2602c69:ProjectViewProjectNode" />
@@ -352,12 +370,15 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590354562566" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590611365203" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../eligibility" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="backtracking" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/trees" />
       <recent name="$PROJECT_DIR$/src/matrix" />
@@ -378,13 +399,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Permutations">
-    <configuration name="AddingUpToSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="microsoftkenya.AddingUpToSum" />
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="IntegerToRoman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="weederquestions.IntegerToRoman" />
       <module name="dev-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="microsoftkenya.*" />
+          <option name="PATTERN" value="weederquestions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -392,8 +413,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerToRoman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="weederquestions.IntegerToRoman" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cyclicsortpattern.Main" />
+      <module name="dev-prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cyclicsortpattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="weederquestions.Main" />
       <module name="dev-prep" />
       <extension name="coverage">
         <pattern>
@@ -418,19 +452,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindromes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="weederquestions.Palindromes" />
-      <module name="dev-prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="weederquestions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="weederquestions.Permutations" />
       <module name="dev-prep" />
@@ -445,19 +466,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AddingUpToSum" />
-      <item itemvalue="Application.Palindromes" />
       <item itemvalue="Application.Permutations" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.IntegerToRoman" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Permutations" />
         <item itemvalue="Application.IntegerToRoman" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Palindromes" />
-        <item itemvalue="Application.AddingUpToSum" />
       </list>
     </recent_temporary>
   </component>
@@ -507,7 +528,8 @@
       <workItem from="1589098646505" duration="9336000" />
       <workItem from="1589909601074" duration="24820000" />
       <workItem from="1590150147469" duration="3511000" />
-      <workItem from="1590181083511" duration="31246000" />
+      <workItem from="1590181083511" duration="41235000" />
+      <workItem from="1590505561378" duration="25710000" />
     </task>
     <task id="LOCAL-00001" summary="more on interview prep">
       <created>1588074325411</created>
@@ -523,11 +545,18 @@
       <option name="project" value="LOCAL" />
       <updated>1589909754673</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="more code including byte for byte">
+      <created>1590356234382</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590356234382</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="517162000" />
+    <option name="totallyTimeSpent" value="552861000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -541,7 +570,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49851632" visible="true" weight="0.2411953" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49851632" visible="true" weight="0.24866596" />
       <window_info id="Structure" order="1" sideWeight="0.5014837" side_tool="true" weight="0.25665602" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -612,7 +641,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="more on interview prep" />
     <MESSAGE value="more sample questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="more sample questions" />
+    <MESSAGE value="more code including byte for byte" />
+    <option name="LAST_COMMIT_MESSAGE" value="more code including byte for byte" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -622,12 +652,6 @@
           <line>43</line>
           <properties />
           <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/stringmanipulation/AnonymousLetter.java</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -640,188 +664,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/graph/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedlist/AddTwoLinkedLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="804">
-          <caret line="65" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedlist/AddTwoLinkedLists.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="99">
-            <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="39" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/amazonsde12020/BehavioralQuiz.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="360">
-            <caret line="24" selection-start-line="24" selection-end-line="24" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docs/Whiteboard Steps.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="480">
-            <caret line="32" selection-start-line="32" selection-end-line="32" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stack/StackUsingLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stack/StackUsingArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/queue/QueueUsingLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorting/MergeSort.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorting/QuickSort.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="780">
-            <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/microsoftkenya/Segregate0sAndOtherValues.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="8" selection-start-line="8" selection-end-line="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/matrix/RotatingMatrix90" />
-    <entry file="file://$PROJECT_DIR$/src/matrix/RotateSquareMatrix90.java" />
-    <entry file="file://$PROJECT_DIR$/src/microsoftkenya/GraphShortestPath.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="285">
-            <caret line="19" selection-start-line="19" selection-end-line="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/microsoftkenya/Rotate3DMatrix">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/matrix/Rotate2DMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/matrix/Rotate2DMatrix.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="330">
-            <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/microsoftkenya/AddingUpToSum.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1035">
-            <caret line="69" column="27" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/microsoftkenya/AddingUpToSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/microsoftkenya/PairsAndProduct.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/graph/FindRouteBetweenNodesDirectedGraph.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/heap/MinHeap.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="730">
-            <caret line="124" column="2" selection-start-line="124" selection-start-column="2" selection-end-line="124" selection-end-column="2" />
-          </first_editor>
           <second_editor />
         </state>
       </provider>
@@ -876,24 +722,6 @@
           <first_editor relative-caret-position="555">
             <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
           </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/weederquestions/IntegerPalindrome.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="330">
-            <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/graph/DepthFirstSearch.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
           <second_editor />
         </state>
       </provider>
@@ -968,16 +796,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/array/DuplicateNumber.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="360">
-            <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/array/FindAllDuplicatesInArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1031,26 +849,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/weederquestions/ConvertIntegerToRoman.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="203">
-            <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="34" selection-end-column="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/weederquestions/IntegerToRoman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/weederquestions/Permutations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
+        <state relative-caret-position="60">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1069,7 +870,231 @@
     <entry file="file://$PROJECT_DIR$/src/backtracking/LetterCasePermutation.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-35" />
+          <first_editor relative-caret-position="165">
+            <caret line="11" column="13" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/DuplicateNumber.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="360">
+            <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cyclicsortpattern/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="78" selection-start-line="34" selection-start-column="78" selection-end-line="34" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backtracking/StringPermutations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weederquestions/ConvertIntegerToRoman.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="315">
+            <caret line="21" selection-start-line="21" selection-end-line="34" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weederquestions/IntegerToRoman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cyclicsortpattern/FindMissingNumber.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="10" selection-start-line="10" selection-end-line="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/TwoPointerPattern.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/twopointerpattern/AddUpToSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cyclicsortpattern/FindSmallestMissingPositiveNumber.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="270">
+            <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/SmallestMissingPositiveInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-570">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stringmanipulation/AnonymousLoveLetter.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stringmanipulation/AnonymousLetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-246">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graph/BfsUsingAdjacencyList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graph/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graph/BreadthFirstSearch.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graph/CheckIfTwoNodesInSamePath.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="390">
+            <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graph/DepthFirstSearch.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graph/DepthFirstSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weederquestions/MatchingBrackets.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="165">
+            <caret line="11" column="14" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weederquestions/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="48" column="55" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weederquestions/IntegerPalindrome.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="330">
+            <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/DetectLoopInLinkedList.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="205">
+            <caret line="14" selection-start-line="14" selection-end-line="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/ReverseLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/ReverseLinkedList">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/AddTwoLinkedLists.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1095">
+            <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weederquestions/LongestPalindromeInString.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="730">
+            <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/heap/MinHeap.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1320">
+            <caret line="124" column="2" selection-start-line="124" selection-start-column="2" selection-end-line="124" selection-end-column="2" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
