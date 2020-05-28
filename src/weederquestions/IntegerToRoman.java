@@ -19,6 +19,7 @@ public class IntegerToRoman {
 
     public static void main(String[]args) {
 
-        System.out.println(convertIntegerToRoman(404));
+        System.out.println(convertIntegerToRoman(1000));
+
     }
 }

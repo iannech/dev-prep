@@ -21,6 +21,6 @@ public class ReverseNumberInput {
 
     public static void main(String [] args){
 
-        System.out.println(reverseNumber(10));
+        System.out.println(reverseNumber(122));
     }
 }

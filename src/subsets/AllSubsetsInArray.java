@@ -12,22 +12,29 @@ public class AllSubsetsInArray {
     // APPROACH 1
     static List<List<Integer>> subsets(int[] arr) {
 
+        // a list to return all our subsets
         List<List<Integer>> result = new ArrayList<>();
+        // empty will be among the subsets
         result.add(new ArrayList<>());
 
         if(arr == null || arr.length == 0)
             return result;
 
-        int s = 0;
+        int s;
 
+        // for each element of the array: go adding it to all subsets in result
         for(int i=0; i<arr.length; i++) {
 
+            // get current size of return list
             s = result.size();
 
+            // loop through each arrayList in return list
             for(int j=0; j<s; j++) {
 
+                // retrieve each arrayList and update it with current element i
                 List<Integer> temp = new ArrayList<>(result.get(j));
                 temp.add(arr[i]);
+                // add it back
                 result.add(temp);
             }
         }
@@ -64,6 +71,6 @@ public class AllSubsetsInArray {
 
         int[] arr = {1,2,3};
 
-        System.out.println(AllSubsetsInArray.subsetsBacktrack(arr));
+        System.out.println(AllSubsetsInArray.subsets(arr));
     }
 }

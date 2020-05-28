@@ -4,21 +4,21 @@ public class StringPermutations {
 
 
     //Recursive Method
-    static  void  permute(String  str,int l, int r) {
+    static  void  permute(String  str,int left, int right) {
 
-        if(l == r)
+        if(left == right)
 
             System.out.println(str);
 
         else{
+            // fix each letter in every iteration
+            for(int i=left; i<=right; i++) {
 
-            for(int i=l; i<=r; i++) {
+                str = swap(str, left, i); // i = 0, l=0 // swap A with A to get ABC
 
-                str = swap(str, l, i); // i = 0, l=0 // swap A with A to get ABC
+                permute(str,left+1, right); // fix A and pass i = 1, l = 1, r = 2
 
-                permute(str,l+1, r); // fix A and pass i = 1, l = 1, r = 2
-
-                str = swap(str, l, i); // backtrack
+                str = swap(str, left, i); // backtrack
             }
         }
 
@@ -43,7 +43,7 @@ public class StringPermutations {
     public static void main(String[]args) {
         String str = "123";
         int l =0;
-        int r = str.length() - 1;
+        int r = str.length()-1;
 
         permute(str, l, r);
     }

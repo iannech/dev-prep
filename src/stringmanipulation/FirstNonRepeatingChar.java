@@ -8,7 +8,7 @@ public class FirstNonRepeatingChar {
 
         String input = "aaab";
 //        getFirstNonRepeatingCharacter(input);
-        System.out.println(fndFirstNonRepeating("ngrhhqbhnsipkcoqjyviikvxbxyphsnjpdxkhtadltsuxbfbrkofg"));
+        System.out.println(fndFirstNonRepeating("aaabbccccbbebc"));
     }
 
     static void getFirstNonRepeatingCharacter(String input) {
@@ -68,17 +68,22 @@ public class FirstNonRepeatingChar {
 
         char[] input = arr.toCharArray();
 
+        // LinkedHashmap maintains order of items as inserted
         Map<Character, Integer> map = new LinkedHashMap<>();
 
         char[] charArray = arr.toCharArray();
 
         int i = 0;
 
+        // for each character in array
         while (i < charArray.length){
 
+            // if not in map, put character with count of 1
             if (!map.containsKey(charArray[i])){
                 map.put(charArray[i], 1);
             }else {
+
+                // increment count of that particular character
                 map.put(charArray[i], map.get(charArray[i]) + 1);
             }
 
@@ -86,13 +91,15 @@ public class FirstNonRepeatingChar {
 
         }
 
+
+        // retrieve the first character with a count of 1
         for (Map.Entry<Character,Integer> entry : map.entrySet()) {
             if (entry.getValue() == 1) {
                 return entry.getKey();
             }
         }
 
-
+        // if none, return '_'
         return '_';
 
     }

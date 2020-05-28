@@ -29,18 +29,23 @@ public class PascalsTriangle {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
-        System.out.println();
+
     }
 
     public static void printPascal(int n){
         int [][] arr = new int[n][n];
         for (int y = 0; y < n; y++){
             for (int x = 0; x < y+1; x++){
+
                 if (x == 0) {
+
                     arr[x][y] = 1;
+
                 }
                 else {
-                    arr[x][y] = (arr[(x - 1)][(y - 1)]) + (arr[(x)][y-1]);
+
+                    arr[x][y] = (arr[x - 1][y - 1]) + (arr[x][y-1]);
+
                 }
                 if (y == 0 || y == x)
                     System.out.println(arr[x][y] + "\t");
