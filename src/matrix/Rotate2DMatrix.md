@@ -45,9 +45,9 @@ SC = N/2
 // Clockwise
 static void rotateMatrixClockwise(int[][] mat, int N) {
  
-         int C = N/2;
+         int sCycles = N/2;
  
-         for(int r=0; r<C; r++) {
+         for(int r=0; r<sCycles; r++) {
              for(int c=0; c<N-1-r; c++) {
  
                  int temp = mat[r][c];

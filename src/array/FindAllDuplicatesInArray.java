@@ -29,11 +29,40 @@ public class FindAllDuplicatesInArray {
         return list;
     }
 
+    // NO EXTRA Space
+    static List<Integer> findAllDuplicates(int[] arr){
+        List<Integer> res = new ArrayList<>();
+
+        if(arr == null || arr.length == 0)
+            return res;
+
+        for(int i=0; i<arr.length;i++) {
+
+            int index = Math.abs(arr[i]) - 1;
+
+            if(arr[index] < 0){
+
+                res.add(Math.abs(arr[index]));
+
+            } else {
+
+                arr[index] = -arr[index];
+
+            }
+        }
+
+        return res;
+    }
+
 
     public static void main(String []args) {
 
-        int arr[] = null;
+        int arr[] = {1,2,3,4,3,1,5,6};
         FindAllDuplicatesInArray duplicatesInArray = new FindAllDuplicatesInArray();
         System.out.println(duplicatesInArray.findDuplicates(arr));
+
+        System.out.println(findAllDuplicates(arr));
+
+        // copy array
     }
 }

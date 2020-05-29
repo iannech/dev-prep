@@ -60,7 +60,7 @@ Input: arr[4,2,2,7,8,1,2,8,1,0]  k = 8
 Output = 1
 
 Approach  
-**BruteForce** - 
+**BruteForce** - 2 nested loops
 
 **Sliding Window**  
 Run a caterpillar like window that grows when the sum < k and shrinks when sum >= k and we are trying to minimize the window

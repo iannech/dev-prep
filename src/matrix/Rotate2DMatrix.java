@@ -22,7 +22,7 @@ public class Rotate2DMatrix {
         printMatrix(mat);
     }
 
-    static int[][] rotateMatrix(int[][] mat) {
+    static void rotateMatrix(int[][] mat) {
 
 
         int R = mat.length;
@@ -36,7 +36,7 @@ public class Rotate2DMatrix {
             }
         }
 
-        return ret;
+        printMatrix(ret);
     }
 
     static void  printMatrix(int[][] mat) {
@@ -60,7 +60,7 @@ public class Rotate2DMatrix {
         int N = matrix.length;
 
         Rotate2DMatrix.rotateMatrixClockwise(matrix, N);
-
+        //rotateMatrix(matrix);
 //        int newMat[][] = rotateMatrix(matrix);
 //        printMatrix(newMat);
 
