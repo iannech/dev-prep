@@ -2,6 +2,8 @@
 We visit all neighbors of a node a before moving to the next node.
 - BFS is NOT Recursive
 - It uses a Queue
+- Uses an array of size V to distinguish between visited and unvisited states
+- Time complexity O(V+E) - if we use Adjacency List
 
 In BFS, we push the root node to the queue and then continually iterating until the queue is empty.
 For each iteration, we remove the node at the head of the queue and "visit" that node. 

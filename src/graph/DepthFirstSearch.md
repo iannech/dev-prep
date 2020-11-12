@@ -1,5 +1,11 @@
 ## Depth First Search
-We start at the root and explore each branch completely before moving to the next branch.
+We start at the root and explore each branch completely before moving to the next branch.  
+DFS is to imagine a maze with only one entrance and one exit. You are at the entrance and want to explore the maze to reach the exit. 
+Obviously you cannot split yourself into more than one.  
+- Uses STACK
+- Uses Backtracking
+- Marks visited nodes to avoid cycles
+- Complexity O(V + E) - each vertex is visited exactly once, 
 
 ### Pseudo/Code [Recursive]
 ````
