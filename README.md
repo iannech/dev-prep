@@ -18,7 +18,9 @@
 3. https://hackernoon.com/the-top-10-object-oriented-design-interview-questions-developers-should-know-c7fc2e13ce39 - Top OOP Design Questions
 
 
-## Sample Questions (on-site)
+## Sample Questions (on-site) 
+NOTE: **These Questions are bound to change in each interview cycle.**
+
 ### Identity Team
 - Given an array [1,0,0,0,2,0,4,3] you need to take all 0 s to the left and maintain the order of non zeros. I.e [0,0,0,0,1,2,4,3] dont use extra space. Do it in one loop.
 - Given a linked list write an algorithm to reverse it.
