@@ -10,6 +10,7 @@
 6. https://www.geeksforgeeks.org/microsoft-interview-preparation/ - Geeks For Geeks (Microsoft Interview prep)
 7. https://www.byte-by-byte.com/coding-interview-questions/all/ - Byte by Byte -> explore their crash course on Dynamic Programming
 8. https://github.com/arialdomartini/Back-End-Developer-Interview-Questions/blob/master/README.md - Backend Developer
+9. https://yangshun.github.io/tech-interview-handbook/best-practice-questions Interview Handbook and best practice questions
 
 ### System Design
 0. https://github.com/donnemartin/system-design-primer - System Design Primer - start here
