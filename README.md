@@ -51,3 +51,8 @@ Calling the function for example 100 times should return chicago 80
 3. Design a url shortening service (System design) 
 
 4. Create a load test program
+
+### MS Identity
+1. Find all root to leaf paths in a binary tree
+2. Write a function to deep clone a linked list
+3. Given the root of a binary tree and an integer target sum, return true if the tree has a root-to-leaf path such that adding up all the values along the path equals target sum
