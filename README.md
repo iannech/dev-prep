@@ -56,3 +56,27 @@ Calling the function for example 100 times should return chicago 80
 1. Find all root to leaf paths in a binary tree
 2. Write a function to deep clone a linked list
 3. Given the root of a binary tree and an integer target sum, return true if the tree has a root-to-leaf path such that adding up all the values along the path equals target sum
+
+### Windows and Devices
+1. Given a number N, write a function to get all prime numbers less than it.
+2. Given a string representing an N*N matrix elements ie: "1,2,3,4,5,6,7,8,9"
+    1 2 3
+    4 5 6
+    7 8 9
+   Calculate the absolute difference of the diagonal elements Math.abs((1+5+9) - (3+5+7))
+
+3. Given a function with three parameters, an int[] representing matrix elements, a width and a height of the matrix. Return a sum of all vertical lines.
+   A vertical line exists if all elements in a column are similar.
+   ie: {10,9,10,0,10,10,9,10,10} w = 3 h =3.
+    10 9  10
+    0 10  10
+    9 10  10
+
+4. Validate Parenthesis.
+  Given a string s containing just the characters '(', ')', '{', '}', '[', ']', determine if the input string is valid.
+  An input string is valid if:
+  Open brackets must be closed by the same type of brackets.
+  Open brackets must be closed in the correct order.
+5. Given a page of a book with words, write a function to return the word with the highest number of occurences in the page and then replace
+   the occurences of the word in the page with its Synonym.
+6. Given a 2D Matrix, perform a Spiral Traversal.
