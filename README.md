@@ -74,3 +74,5 @@ Calling the function for example 100 times should return chicago 80
 5. Given a page of a book with words, write a function to return the word with the highest number of occurences in the page and then replace
    the occurences of the word in the page with its Synonym.
 6. Given a 2D Matrix, perform a Spiral Traversal.
+7. Given an array of [9,4,3,2] numbers, return an array that contians the computed fibonacci sequence of each item.
+8. validate that an input is a palindrome. Only numbers and words can form a palindrome. Ignore any other characters passed. For example - m.. u,,,m is a valid palindrome.
