@@ -10,13 +10,13 @@
 
 5. Start with the naive/brute force approach. First thing that comes to mind. It shows you are able to think well and critically. you don't need to write this code, just speak about it
 
-6. Tell him why this approach is not the best.
+6. Tell them why this approach is not the best.
 
-7. Walk through your approach, comment things and see where you may be able to break thing. Any repetion, bottlenecks like O(N^2) or unnecessary work. Bottleneck is part of the code with the biggest Big O.
+7. Walk through your approach, comment things and see where you may be able to break thing. Any repetition, bottlenecks like O(N^2) or unnecessary work. Bottleneck is part of the code with the biggest Big O.
 
 8. Before you start coding, walk through your code and write down the steps you are going to follow.
 
-9. Modularize your code from the beginning. Break up your code into beautiful small pieces and add comments only if you need to.
+9. Modularize your code from the beginning. Break up your code into beautiful small pieces and add comments only if you need to. You could have main functions and utility functions as separate.
 
 10. Start actually writing the code. Never start a whiteboard interview not being sure how things are going to work out [Recipe For Disaster]
 
@@ -29,4 +29,4 @@ Trick::> Comment in the code, the checks that you want to do...write the functio
 
 14. Finally talk to the interviewer where you would improve the code. Does it work? Are there different approaches?Is it readable? What would you google to improve? How can performance be improved?
 
-15. If the interviewer is happy with your solution, the interview usually ends here. Extension questions are common at this stage:> How would you handle the problem if the whole input is too large to fit into memory, or if the input arrives as a stream - Answer is usually divide-and-conquer approach -> perform distriubuted processing of the data and only read certain chunks of the inputs from Disk into memory. Write the output back to disk and combine them later.
+15. If the interviewer is happy with your solution, the interview usually ends here. Extension questions are common at this stage:> How would you handle the problem if the whole input is too large to fit into memory, or if the input arrives as a stream - Answer is usually divide-and-conquer approach -> perform distributed processing of the data and only read certain chunks of the inputs from Disk into memory. Write the output back to disk and combine them later.
