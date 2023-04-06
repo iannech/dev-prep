@@ -1,4 +1,4 @@
-package patterns;
+package patterns.slidingwindow;
 
 public class SlidingWindowPattern {
 

@@ -38,6 +38,62 @@ void bfsSearch(Node node) {
 }
 ````
 
+## BFS JAVA
+
+````
+class Graph {
+    // number of vertices in our graph
+    private int V;
+
+    // define our adjacent list
+    private LinkedList<Integer> adj[];
+
+    // constructor to initialize our graph
+    public Graph(int v){
+        v = V;
+        adj = new LinkedList[v];
+        for (int i = 0; i<v; i++>)
+            adj[i] = new LinkedList();
+    }
+
+    //assume we have methods to add edges, so we wont implement them
+
+    // bfs util
+    void graphBFS(int s){
+        // validations ?
+
+        // BFS uses a queue
+        LinkedList<Integer> queue = new LinkedList();
+        
+        // boolean array to track visited nodes
+        boolean visited [] = new boolean[V];
+
+        // mark source as visited then add to queue
+        visited[s] = true;
+        queue.add(s);
+
+        // visit children nodes
+        while(queue.size() != 0){
+            
+            // deque a node from queue and print
+            s = queue.poll();
+            System.out.println(s + " ");
+
+            // get all adjacent vertices of s and if any hasn't been visited, mark it as visited and enqueue it
+            Iterator<Integer> iterator = adj[s].listIterator();
+            while(iterator.hasNext()){
+                // get element
+                int n = iterator.next();
+                if(!visited[n]){
+                   visited[n] = true;    
+                   queue.add(n); 
+                }
+            }
+        }
+    }
+}
+````
+
 ## BFS Questions
 1. BFS Implementation
 2. Check if undirected graph contains a cycle or not
