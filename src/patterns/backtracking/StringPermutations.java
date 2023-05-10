@@ -1,4 +1,4 @@
-package backtracking;
+package patterns.backtracking;
 
 public class StringPermutations {
 

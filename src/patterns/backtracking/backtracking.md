@@ -14,6 +14,7 @@ An algorithmic technique that considers searching every possible combination in 
 
    ```
    void findSolutions(n, other params) :
+   // Goal
     if (found a solution) :
         solutionsFound = solutionsFound + 1;
         displaySolution();
@@ -22,6 +23,7 @@ An algorithmic technique that considers searching every possible combination in 
         return
 
     for (val = first to last) :
+        // Constraints
         if (isValid(val, n)) :
             applyValue(val, n);
             findSolutions(n+1, other params);

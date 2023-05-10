@@ -1,4 +1,4 @@
-package subsets;
+package patterns.subsets;
 
 import java.util.ArrayList;
 import java.util.Iterator;

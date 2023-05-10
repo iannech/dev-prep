@@ -1,4 +1,4 @@
-package cyclicsortpattern;
+package patterns.cyclicsortpattern;
 
 /**
  * Main method to execute Cyclic sort pattern questions

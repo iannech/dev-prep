@@ -91,10 +91,10 @@ public class CountConnectedBuildingComponents {
 
     public static void main(String[] args) {
         int [][] mat = new int[][]{
-                {0, 0, 0, 0},
-                {0, 0, 0, 0},
-                {0, 0, 0, 0},
-                {1, 0, 1, 1}
+                {1, 1, 0, 1},
+                {1, 1, 0, 1},
+                {1, 1, 0, 0},
+                {0, 0, 1, 0}
         };
 
         CountConnectedBuildingComponents buildingComponents = new CountConnectedBuildingComponents();
