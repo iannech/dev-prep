@@ -27,7 +27,7 @@ According to Eric Evans, When we are developing software our focus should not be
 - It involves identifying areas of overlap and integration between contexts and establishing communication channels and agreements between them.
 - There are various patterns and techniques for Context Mapping such as Partnership, Shared Kernel and Customer-Supplier.
 
-![alt text](/images/context-mapping.webp)
+![Context Mapping](/images/context-mapping.webp)
 
 **Shared Kernel**
 - Shared Kernel is a strategic pattern that involves identifying areas of commonality between different Bounded Contexts and establishing a shared subset of the domain model that is used by multiple contexts.
@@ -35,7 +35,7 @@ According to Eric Evans, When we are developing software our focus should not be
 - Shared Kernel should be used judiciously, as it introduces dependencies between contexts and can lead to coupling if not managed carefully.
 - In Code terms, it could be a shared library, or a service. 
 
-![alt text](/images/shared-kernel.webp)
+![Shared Kernel](/images/shared-kernel.webp)
 
 **Partnership**
 - Partnership describes more about the relationship between teams as opposed to actual code.
