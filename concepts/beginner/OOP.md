@@ -5,4 +5,4 @@
     - [DRY Principle](https://github.com/ashishps1/awesome-low-level-design/blob/main/concepts/DRY.md)
     - [YAGNI Principle](https://github.com/ashishps1/awesome-low-level-design/blob/main/concepts/YAGNI.md)
     - [KISS Principle](https://github.com/ashishps1/awesome-low-level-design/blob/main/concepts/KISS.md)
-    - [SOLID Principle]()
+    - [SOLID Principle](/concepts/beginner/SOLID.md)
