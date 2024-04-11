@@ -9,12 +9,18 @@ Continuous Monitoring is one of the cornerstones of Microservices architecture. 
 
 ![Distributed Tracing](/images/Distributed%20tracing.webp)
 
+#### Examples
+1. Python(FastAPI) - You could use **OpenTelemetry**, an open source Observability framework. [Open Telemetry](https://uptrace.dev/get/instrument/opentelemetry-fastapi.html#what-is-opentelemetry)
+2. Java (Springboot) - **Spring Cloud Sleuth** and **Zipkin server** [Distributed tracing for Springboot](https://microservices.io/patterns/observability/distributed-tracing.html)
+
 ## Log Aggregation
 - Each Microservice generates a standardized log file for it's activities. Useful in cases where an application may consist of several services.
 - However, there needs to be a centralized logging service that can compile logs from each service instance.
 - Log aggregation - normalizes and consolidates logs from different microservices and stores them on a centralized platform.
 - Developers can search and analyze logs on the platform. They can also create alerts that are triggered when certain problem messages appear, simplifying issue resolution.
 
+#### Examples
+- **Loguru** - is a Python Logging library that offers robust logging services with automatic log rotation and compression. It can be used with **Sentry** - a tool that offers Error Handling and Monitoring by providing real-time error alerts, detailed error reports and performance insights. [Read More](https://marketsplash.com/fastapi-logging/)
 
 ## Performance Metrics
 - It's important to keep an eye on transactions to that patterns can be monitored and problems identified. However, with a growing number of services this can be painful.
@@ -24,7 +30,7 @@ Continuous Monitoring is one of the cornerstones of Microservices architecture. 
 - Two methods for this: push(which pushes metrics to metrics service), pull(which pulls metrics from metrics service). 
 
 ## Health Check
-- This pattern dictates having a health check API endpoint on all services that returns the health of the services.
+- This pattern dictates hs
 - The API endpoint handler might perform various checks such as:
     - The status of the connections to the infrastructure services used by service instance.
     - The status of the host e.g disk space.
