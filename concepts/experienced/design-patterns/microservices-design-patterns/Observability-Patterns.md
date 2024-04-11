@@ -30,7 +30,7 @@ Continuous Monitoring is one of the cornerstones of Microservices architecture. 
 - Two methods for this: push(which pushes metrics to metrics service), pull(which pulls metrics from metrics service). 
 
 ## Health Check
-- This pattern dictates hs
+- This pattern dictates having a health check API endpoint on all services that returns the health of the services.
 - The API endpoint handler might perform various checks such as:
     - The status of the connections to the infrastructure services used by service instance.
     - The status of the host e.g disk space.
