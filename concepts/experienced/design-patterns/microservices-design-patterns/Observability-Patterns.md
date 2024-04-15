@@ -7,7 +7,7 @@ Continuous Monitoring is one of the cornerstones of Microservices architecture. 
 - Developers can use this info to trace requests from beginning to end, helping them find the root cause of any issues. 
 - They can also monitor how services interact and how long it takes each service to process requests, which is useful for pinpointing latency.
 
-![Distributed Tracing](/images/Distributed%20tracing.webp)
+    ![Distributed Tracing](/images/Distributed%20tracing.webp)
 
 #### Examples
 1. Python(FastAPI) - You could use **OpenTelemetry**, an open source Observability framework. [Open Telemetry](https://uptrace.dev/get/instrument/opentelemetry-fastapi.html#what-is-opentelemetry)
@@ -20,7 +20,7 @@ Continuous Monitoring is one of the cornerstones of Microservices architecture. 
 - Developers can search and analyze logs on the platform. They can also create alerts that are triggered when certain problem messages appear, simplifying issue resolution.
 
 #### Examples
-- **Loguru** - is a Python Logging library that offers robust logging services with automatic log rotation and compression. It can be used with **Sentry** - a tool that offers Error Handling and Monitoring by providing real-time error alerts, detailed error reports and performance insights. [Read More](https://marketsplash.com/fastapi-logging/)
+- **Loguru** - is a Python Logging library that offers robust logging services with automatic log rotation and compression. It can be used with **Sentry** - a tool that offers Error Handling and Monitoring by providing real-time error alerts, detailed error reports and performance insights.     [Read More](https://marketsplash.com/fastapi-logging/)
 
 ## Performance Metrics
 - It's important to keep an eye on transactions to that patterns can be monitored and problems identified. However, with a growing number of services this can be painful.
