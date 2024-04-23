@@ -59,3 +59,13 @@ Event-Sourcing is commonly combined with the **CQRS** pattern.
     - Integration with other systems, especially in combination with event-sourcing.
 
     [Read More](https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs)
+
+    ## Saga
+    - Saga design pattern provides a way to manage data consistency across microservices in distributed transaction scenarios (managing transactions that span multiple services).
+    - A Saga is a sequence of transactions that updates each service and publishes an event to trigger the next transaction step. If a step fails, the saga executes a compensating transaction that rolls back the preceding transactions.
+    - Downside: 
+        - Requires a more complex programming model. Service must undo the change that caused a failure. 
+
+        ![Saga Pattern](/images/SAGA%20Pattern.webp)
+
+    [Read More about Saga Pattern](https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/saga/saga)
