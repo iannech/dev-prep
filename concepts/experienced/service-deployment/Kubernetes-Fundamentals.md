@@ -1,4 +1,4 @@
-# Kubernetes
+# Kubernetes Fundamentals
 - Kubernetes is a platform for managing containerized workloads and services. 
 - It provides a framework to run distributed systems resiliently by taking care of scaling, failover, providing deployment patterns etc.
 - A Kubernetes cluster consists of a set of worker machines, called **Nodes**, that run containerized applications. Every cluster has atleast 1 worker node.
@@ -59,6 +59,64 @@
 
 ### Addons
 
+Basic Kubectl Commands - [Kubectl Commands](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#create)
 
+
+## Installation and Setup
+Learn:
+- Setting up Minikube for local development
+- Setting up Kubernetes on cloud platforms (e.g GKE, AKS, EKS)
+- Using kubeadm for Cluster creation
+
+## Other Core Components
+
+### Deployments and Replica sets
+
+**Creating and Managing Deployments**
+- A *Deployment* provides declarative updates for Pods and Replica Sets. You describe a *desired* state in a *Deployment*, and the Deployment Controller changes the actual state to the desired state at a controlled rate.
+- You can define Deployments to create new Replica sets
+- Typical Use Cases for a Deployment:
+    - Creating a Deployment to rollout a Replica Set.
+    - Declaring a new state of Pods.
+    - Rollback to an earlier Deployment revision.
+    - Scale up the deployment to facilitate more load.
+    - Pause the rollout for a Deployment.
+    - Clean up older ReplicaSets.
+
+Example: A Deployment that creates a Replica set to bring up 3 NGINX Pods.
+
+Deployment file:
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  labels:
+    app: nginx
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.14.2
+        ports:
+        - containerPort: 80
+
+```
+
+1. Create the Deployment by running the following command:
+`kubectl apply -f https://k8s.io/examples/controllers/nginx-deployment.yaml`
+2. Run `kubectl get deployments` to check if the Deployment was created.
+3. To see the ReplicaSet (`rs`) created by the Deployment, run `kubectl get rs`
+4. To see the labels automatically generated for each Pod, run `kubectl get pods --show-labels`
+
+[Read More on Managing Deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
 
 
