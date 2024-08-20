@@ -74,12 +74,13 @@ This guide assumes you're an **intermediate** to **senior** level Software Engin
 ### **4. System Design & Scalability**
 
 #### **Microservices Architecture**
-   - **Design Principles**: Service granularity, API gateway pattern, and service discovery.
-   - **Data Management**: Distributed transactions, eventual consistency, and database per service.
+   - [**Design Principles**](/concepts/experienced/design-patterns/microservices-design-patterns/Microservice-Design-Patterns.md): Service granularity, API gateway pattern, and service discovery.
+   - [**Data Management**](/concepts/experienced/design-patterns/microservices-design-patterns/Data-Management-Patterns.md): Distributed transactions, eventual consistency, and database per service.
    - **Inter-Service Communication**: Synchronous vs. asynchronous communication (REST, gRPC, message queues).
+   - [**Observability**](/concepts/experienced/design-patterns/microservices-design-patterns/Observability-Patterns.md): Log Aggregation, Performance metrics, Distributed Tracing, Health Check
 
 #### **High-Traffic Systems**
-   - **Caching Strategies**: Use of Redis, Memcached, and HTTP caching.
+   - [**Caching Strategies**](/concepts/experienced/performance-and-scale/Caching.md): Use of Redis, Memcached, and HTTP caching.
    - **Load Balancing Techniques**: Round robin, least connections, and IP hash.
    - **Database Scaling**: Sharding, replication, and partitioning.
 

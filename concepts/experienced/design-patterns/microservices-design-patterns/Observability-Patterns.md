@@ -23,7 +23,7 @@ Continuous Monitoring is one of the cornerstones of Microservices architecture. 
 - **Loguru** - is a Python Logging library that offers robust logging services with automatic log rotation and compression. It can be used with **Sentry** - a tool that offers Error Handling and Monitoring by providing real-time error alerts, detailed error reports and performance insights.     [Read More](https://marketsplash.com/fastapi-logging/)
 
 ## Performance Metrics
-- It's important to keep an eye on transactions to that patterns can be monitored and problems identified. However, with a growing number of services this can be painful.
+- It's important to keep an eye on transactions so that patterns can be monitored and problems identified. However, with a growing number of services this can be painful.
 - With performance metrics pattern, you can either gather data about individual operations (e.g latency and cpu utilization) and consolidate it. 
 - The pattern aggregates the metrics of different services into a single metrics service that offers reporting and altering capabilities.
 - It provides a consolidated view of how the architecture is performing.
