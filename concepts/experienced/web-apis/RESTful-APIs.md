@@ -43,42 +43,51 @@ Other Methods that can be useful in RESTful APIs:
 - OPTIONS - Used to retrieve available methods for a resource.
 
 ## Best Practices for Designing RESTful APIs
-1. Follow RESTful principles
+1. **Follow RESTful principles**
 
-RESTful principles include using HTTP methods appropriately (GET, POST, PUT, DELETE), using resource URIs to identify resources, returning proper HTTP status codes, and using hypermedia controls (links) to guide clients through available actions. Adhering to these principles makes your API easy to understand and use. 
+    RESTful principles include using HTTP methods appropriately (GET, POST, PUT, DELETE), using resource URIs to identify resources, returning proper HTTP status codes, and using hypermedia controls (links) to guide clients through available actions. Adhering to these principles makes your API easy to understand and use. 
 
-2. Use Nouns instead of verbs in URI
+2. **Use Nouns instead of verbs in URI**
 
-For example, instead of using **“/create_user”**, use **“/users”** to represent a collection of users and **“/users/{id}”** to represent a specific user. 
+    For example, instead of using **“/create_user”**, use **“/users”** to represent a collection of users and **“/users/{id}”** to represent a specific user. 
 
-3. Use HTTP methods appropriately
+3. **Use HTTP methods appropriately**
 
-4. Use Proper HTTP status codes
+4. **Use Proper HTTP status codes**
 
-Use the appropriate status codes (such as 200, 201, 204, 400, 401, 404, etc.) to indicate the success or failure of the API call.
+    Use the appropriate status codes (such as 200, 201, 204, 400, 401, 404, etc.) to indicate the success or failure of the API call.
 
-5. Provide consistent response formats.
-Such as JSON or XML consistently.
+5. **Provide consistent response formats.**
+    Such as JSON or XML consistently.
 
-6. Use Versioning
+6. **Use Versioning**
 
-When making changes to your API, use versioning to ensure backwards compatibility. For example, use “/v1/users” instead of “/users” to represent the first version of the API.
+    When making changes to your API, use versioning to ensure backwards compatibility. For example, use “/v1/users” instead of “/users” to represent the first version of the API.
 
-7. Document your API
+7. **Document your API**
 
-Documenting your API is critical to ensure that users understand how to use it. Include details about the API, its resources, parameters, response formats, endpoints, error codes, and authentication mechanisms.
+    Documenting your API is critical to ensure that users understand how to use it. Include details about the API, its resources, parameters, response formats, endpoints, error codes, and authentication mechanisms.
 
-8. Implement Security
+8. **Implement Security**
 
-Security is crucial for protecting your API and user data. Implement proper authentication and authorization mechanisms, such as OAuth2, to ensure that only authorized users can access your API.
+    Security is crucial for protecting your API and user data. Implement proper authentication and authorization mechanisms, such as OAuth2, to ensure that only authorized users can access your API.
 
-9. Optimize Performance
+9. **Optimize Performance**
 
-Optimize your API’s performance by implementing caching, pagination, and compression techniques. Use appropriate HTTP headers and compression techniques to reduce the size of your responses.
+    Optimize your API’s performance by implementing caching, pagination, and compression techniques. Use appropriate HTTP headers and compression techniques to reduce the size of your responses.
 
-10. Test and Monitor your API
+10. **Test and Monitor your API**
 
-Test your API thoroughly to ensure that it meets user requirements and performance expectations. Monitor your API’s performance using metrics such as response times, error rates, and throughput, and use this data to improve the quality of your API.
+    Test your API thoroughly to ensure that it meets user requirements and performance expectations. Monitor your API’s performance using metrics such as response times, error rates, and throughput, and use this data to improve the quality of your API.
+11. [**Rate Limiting and Throttling**](https://apidog.com/blog/rate-limiting-vs-throttling/#rate-limiting-features)
+    Rate Limiting is a control mechanism that limits the number of requests a user can make to an API within a specific time frame.
+    Throttling on the other hand, adjusts the pace at which applications can make API calls, ensuring that the system remains stable and functional under varying loads (It's like a dynamic speed limit for data traffic).
+## Optimizing API Performance
+- **Pagination** - when you have large data to send, break it into chunks and send as paged results to reduce load and reduce response time.
+- **Caching** - use different caching with tools like redis to cache data you use frequently and reduce response time,
+- **Payload compression** - shrink the size of payload you're sending and receiving with tools like gzip for faster upload and downloads.
+- **Asynchronous logging** - instead of writing logs to disk directly, you offload this to a logger worker node/service that reads the logs from a queue/topic and do the writing to disk for your service.
+- **Connection Pool**- Instead of opening and closing DB connections all the time, make use of connection pool to keep these connections ready to go.
 
 ## Advantages of REST APIs
 - Simplicity and flexibility

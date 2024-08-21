@@ -19,8 +19,8 @@ This guide assumes you're an **intermediate** to **senior** level Software Engin
    - **Spring Framework**: Basics of Spring, Spring Boot, dependency injection, and Spring MVC.
 
 #### **REST APIs & WebSockets**
-   - **REST Principles**: CRUD operations, statelessness, resource naming, and HTTP status codes.
-   - **API Design**: Versioning, pagination, rate limiting, and security (OAuth2, JWT).
+   - [**REST Principles**](/concepts/experienced/web-apis/RESTful-APIs.md): CRUD operations, statelessness, resource naming, and HTTP status codes.
+   - [**API Design**](/concepts/experienced/web-apis/RESTful-APIs.md): Versioning, pagination, rate limiting, and security (OAuth2, JWT).
    - **WebSocket Basics**: Understanding WebSocket protocol, building real-time applications.
    - **API Documentation**: Using Swagger/OpenAPI for documenting RESTful APIs.
 
