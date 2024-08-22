@@ -71,15 +71,17 @@ According to Eric Evans, When we are developing software our focus should not be
 
 
 ## Tactical Design Patterns in Domain-Driven-Design
-Refer to specific strategies or patterns used to structure and organize the domain model within a software system.
-1. Entity - is a domain object that has a distinct identity and lifecylce. They are characterized by their unique identifiers and mutatable state. They encapsulate data and behavior related to a specific concept within the domaine. e.g BankAccount entity in banking application
+Tactical DDD patterns are applied within a single Bounded context.
+In a Microservice architecture, each Bounded context is a candidate for a Microservice. And as a general principle; a Microservice should be no smaller than an aggregate and no larger than a Bounded Context.
+1. Entity - is a domain object that has a distinct identity and lifecylce. They are characterized by their unique identifiers and mutatable state. They encapsulate data and behavior related to a specific concept within the domain. e.g BankAccount or Customer entity in banking application
 2. Value Object - is a domain object that represents a conceptually immutable value. Unlike entities it doesn't have a distinct identity and are typically used to represent attributes or properties of entities. They are equality-comparable based on their properties, rather than identity.
+Examples include: colors, date, times, currency value etc
 3. Aggregate - is a cluster of domain objects that are treated as a single unit for the purpose of data consistency and transaction integrity.
 - Aggregates consist of one or more entities and value objects, with one entity designated as the aggregate root.
 - Aggregate root serves as the entry point for accessing and modifying the aggregate's internal state.
-- Aggregates enfore consistency boundaries within the domain model.
-- Example: *in an e-commerce system, an Order aggregate might consist of entities like OrderItem and Customer, with Order entity = aggregate root.*
-4. Repository - is a mechanism for abstracting data accessa and persistence logic from the domain model.
+- Aggregates enforce consistency boundaries within the domain model.
+- Example: *in an e-commerce system, an Order aggregate might consist of entities like OrderItem and Customer(children of root), with Order entity = aggregate root.*
+4. Repository - is a mechanism for abstracting data access and persistence logic from the domain model.
 - Repositories provide standardized interface for querying and storing domain objects, hiding the details of how data is stored or retrieved.
 - By decoupling the domain model from data access concerns, repositories enable greater flexibility and maintainability.
 5. Factory - is a creational pattern used to encapsulate the logic of creating instances of complex domain objects. The abstract the process of object instantiation, allowing the client to create objects without needing to know details of their construction.

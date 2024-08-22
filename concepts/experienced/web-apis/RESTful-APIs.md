@@ -80,6 +80,7 @@ Other Methods that can be useful in RESTful APIs:
 
     Test your API thoroughly to ensure that it meets user requirements and performance expectations. Monitor your API’s performance using metrics such as response times, error rates, and throughput, and use this data to improve the quality of your API.
 11. [**Rate Limiting and Throttling**](https://apidog.com/blog/rate-limiting-vs-throttling/#rate-limiting-features)
+
     Rate Limiting is a control mechanism that limits the number of requests a user can make to an API within a specific time frame.
     Throttling on the other hand, adjusts the pace at which applications can make API calls, ensuring that the system remains stable and functional under varying loads (It's like a dynamic speed limit for data traffic).
 ## Optimizing API Performance
