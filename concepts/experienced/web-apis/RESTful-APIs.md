@@ -83,11 +83,12 @@ Other Methods that can be useful in RESTful APIs:
 
     Rate Limiting is a control mechanism that limits the number of requests a user can make to an API within a specific time frame.
     Throttling on the other hand, adjusts the pace at which applications can make API calls, ensuring that the system remains stable and functional under varying loads (It's like a dynamic speed limit for data traffic).
+
 ## Optimizing API Performance
 - **Pagination** - when you have large data to send, break it into chunks and send as paged results to reduce load and reduce response time.
 - **Caching** - use different caching with tools like redis to cache data you use frequently and reduce response time,
 - **Payload compression** - shrink the size of payload you're sending and receiving with tools like gzip for faster upload and downloads.
-- **Asynchronous logging** - instead of writing logs to disk directly, you offload this to a logger worker node/service that reads the logs from a queue/topic and do the writing to disk for your service.
+- **Asynchronous logging** - instead of writing logs to disk directly, you offload this to a logger worker node/service that reads the logs from a queue/buffer and do the writing to disk for your service.
 - **Connection Pool**- Instead of opening and closing DB connections all the time, make use of connection pool to keep these connections ready to go.
 
 ## Advantages of REST APIs
