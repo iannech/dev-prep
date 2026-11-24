@@ -1,0 +1,166 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                  🎯 DSA INTERVIEW PREP - START HERE 🎯                     ║
+║                                                                            ║
+║              8-Week Study Plan for Google Kenya Senior SWE Interview       ║
+║                     For Full-Time Working Engineers                        ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+📚 YOU HAVE 11 FILES IN THIS DIRECTORY - Here's What Each Does:
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ 🎯 START WITH THESE 2 FILES:                                               │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│ 1. README.md (15KB)                                                        │
+│    ↳ BEST OVERVIEW - Read this first                                      │
+│    ↳ File guide, quick start, success metrics                             │
+│    ↳ Time: 10-15 minutes to skim                                          │
+│                                                                             │
+│ 2. STUDY_PLAN.md (8.2KB)                                                  │
+│    ↳ THE FULL CURRICULUM - Read after README                              │
+│    ↳ 8-week breakdown, daily structure, learning principles               │
+│    ↳ Time: 15-20 minutes to read                                          │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ 📖 REFERENCE GUIDES (Keep handy while studying):                            │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│ 3. QUICK_REFERENCE.md (9.2KB)                                             │
+│    ↳ Patterns, complexity cheat sheet, milestone checklist                │
+│    ↳ Read daily for quick lookups                                         │
+│                                                                             │
+│ 4. TIPS_AND_BEST_PRACTICES.md (9.3KB)                                     │
+│    ↳ How to solve problems, getting unstuck, interview tips              │
+│    ↳ Read when you need guidance on approach                              │
+│                                                                             │
+│ 5. CALENDAR.md (10KB)                                                     │
+│    ↳ Week-by-week daily tasks, sample schedules                          │
+│    ↳ Print or pin this for daily reference                               │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ 🔗 PROBLEM LISTS BY WEEK:                                                  │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│ 6. WEEK_1_2_PROBLEMS.md (2.0KB)                                           │
+│    ↳ Weeks 1-2: Arrays, Strings, Linked Lists                            │
+│    ↳ 30-40 Easy-Medium problems                                           │
+│                                                                             │
+│ 7. WEEK_3_4_PROBLEMS.md (2.0KB)                                           │
+│    ↳ Weeks 3-4: Trees, Graphs, Heaps                                     │
+│    ↳ 30-40 Medium-Hard problems                                           │
+│                                                                             │
+│ 8. WEEK_5_6_PROBLEMS.md (3.5KB)                                           │
+│    ↳ Weeks 5-6: DP, Sorting, Searching, Backtracking                     │
+│    ↳ 30-40 Medium-Hard problems                                           │
+│                                                                             │
+│ 9. WEEK_7_8_MOCK_INTERVIEWS.md (6.6KB)                                    │
+│    ↳ Weeks 7-8: Mock interview strategy + prep                           │
+│    ↳ System design light, pre-interview checklist                         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ 🛠️  TOOLS & TRACKING:                                                      │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│ 10. TRACKING_TEMPLATES.md (4.4KB)                                         │
+│     ↳ Copy these templates to track your progress weekly                  │
+│     ↳ Use spreadsheet or Notion to log daily                              │
+│                                                                             │
+│ 11. RESOURCES.md (7.0KB)                                                  │
+│     ↳ LeetCode, GeeksforGeeks, YouTube channels, books                   │
+│     ↳ Community, tools, motivation resources                              │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+╔════════════════════════════════════════════════════════════════════════════╗
+║                        ⚡ 30-MINUTE QUICK START ⚡                         ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+Do THIS now (takes 30 minutes):
+
+  1. [0-5 min]   Skim README.md (file guide section)
+  2. [5-15 min]  Read STUDY_PLAN.md (overview)
+  3. [15-25 min] Review QUICK_REFERENCE.md (patterns section)
+  4. [25-30 min] Look at CALENDAR.md (Week 1 tasks)
+
+Then:
+
+  5. Create LeetCode account (free or premium ~$15/month)
+  6. Pick Week 1 Problem 1 from WEEK_1_2_PROBLEMS.md
+  7. Read "How to Solve a Problem" in TIPS_AND_BEST_PRACTICES.md
+  8. Solve it, following the 6-step approach
+  9. Log it in TRACKING_TEMPLATES.md
+
+✅ You're started! Keep this momentum!
+
+╔════════════════════════════════════════════════════════════════════════════╗
+║                         🎯 YOUR 8-WEEK ROADMAP 🎯                        ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+WEEK 1-2: Fundamentals                (60-70 problems)
+         Arrays, Strings, Lists
+         ↓
+WEEK 3-4: Data Structures            (90-140 problems cumulative)
+         Trees, Graphs, Heaps
+         ↓
+WEEK 5-6: Algorithms                 (150-210 problems cumulative)
+         DP, Sorting, Searching, Backtracking
+         ↓
+WEEK 7:   Practice & Weak Areas      (210-245 problems cumulative)
+         Mixed difficulty + 1-2 mock interviews
+         ↓
+WEEK 8:   Final Push                 (220-260 problems cumulative)
+         2-3 full mock interviews + review
+         ↓
+🎉 GOOGLE INTERVIEW READY!
+
+╔════════════════════════════════════════════════════════════════════════════╗
+║                    ⏱️  REALISTIC TIME COMMITMENT ⏱️                       ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+Total: 65-75 hours over 8 weeks
+
+Per Week:    10-14 hours
+Per Day:     1-2 hours (5-6 days/week)
+Per Session: 45-90 minutes
+
+This is SUSTAINABLE while working full-time.
+
+╔════════════════════════════════════════════════════════════════════════════╗
+║                        ✅ SUCCESS LOOKS LIKE ✅                           ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+By Week 8, you'll be able to:
+
+  ✓ Solve 150-200 DSA problems
+  ✓ Recognize patterns instantly
+  ✓ Communicate clearly while coding
+  ✓ Handle pressure in mock interviews
+  ✓ Optimize solutions in real-time
+  ✓ Tackle "never seen before" problems
+  ✓ Pass Google senior engineer interview
+
+╔════════════════════════════════════════════════════════════════════════════╗
+║                          🚀 NEXT STEPS 🚀                                 ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+1. Right now: Read README.md
+2. Today:     Read STUDY_PLAN.md  
+3. Tomorrow:  Start Week 1 Problem 1
+4. This week: Solve 5-7 problems, log progress
+
+DO NOT OVERTHINK. Just start.
+
+Your Google Kenya interview is in 8 weeks.
+You've got this. 💪🎯
+
+═══════════════════════════════════════════════════════════════════════════════
+                    Questions? Check README.md FAQ section
+                              
+                              GOOD LUCK! 🚀
+═══════════════════════════════════════════════════════════════════════════════
